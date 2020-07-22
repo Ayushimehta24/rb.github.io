@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 2200;
+   margin: 0 auto;
+
+}
+body{
+	background-color: #484f50;
+}
+.clear::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+#raksha-bandhan{
+	margin-top: 5%;
+}
+
+.title{
+	float: right;
+	text-align: center;
+	font-size: 69px;
+	line-height: 33px;
+	margin-top: 22px;
+	margin-right: 12%;
+}
+.img-left{
+	margin-left: 10%;
+}
+.img-left img{
+	width: 56px;
+}
+.img-left img {
+    width: 128px;
+    height: 112px;
+}
+
+.image-rakhi {
+	text-align: center;
+	margin-top: 4%;
+}
+.image-rakhi img{
+	width: 60%;
+	opacity: 0.5;
+    height: 348px;
+}
+
+ .craft-person{
+	float: right;
+    margin-right: 15%;
+    margin-top: 7%;
+}
+ .craft-person img{
+ 	width: 68%;
+ }
+
+.precious{
+	float: left;
+	width: 37%;
+	margin-left: 20%;
+	margin-top: 7%;
+}
+.precious h5{
+	font-size: 30px;
+	line-height: 24px;
+	color: #fffff;
+}
+
+.precious p{
+	font-size: 26px;
+	line-height: 28px;
+	color: #959595;
+	margin-bottom: 50px;
+	margin-top: 33px;
+}
+.collage h1{
+	color: #c7b4a8;
+	text-align: center;
+	letter-spacing: 6px;
+}
+.detail-pic{
+    float: left;
+    width: 28%;
+    margin-top: 3%;
+    margin-right: -17%;
+    margin-left: 16%;
+}
+
+
+.video{
+	text-align: center;
+	margin-left: 2%;
+	margin-top: 5%;
+}
+.video iframe{
+	width: 50%;
+	height: 300px;
+}
+.long-message{
+	margin-top: 7%;
+	
+}
+
+.long-message p{
+	text-align: center;
+	font-size: 15px;
+	line-height: 22px;
+}
+.long-message h3{
+	text-align: center;
+}
+
+.pic:hover img{
+	transform: scale(1.1);
+
+}
+.pic {
+	float: left;
+	width: 22%;
+	position: relative;
+	height: 305px;
+    width: 340px;
+	border:10px solid #fff;
+	text-align: center;
+	overflow: hidden;
+    margin-right: -9%;
+    margin-left: 19%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.overlay{
+	position: absolute;
+	    height: 305px;
+    width: 337px;
+	top:0;
+	transition: all .2s linear;
+}
+
+.pic:hover .overlay{
+	background: rgba(70,68,68,.9);
+}
+
+.pic h4{
+	transform: translateY(-333px);
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.pic p {
+	width: 90%;
+	margin: auto;
+	font-size: 28px;
+   margin-top: 42px;
+}
+
+.pic:hover h4{
+	transform: translateY(-220px);
+}
+
+.pic:hover p{
+	transform: translateY(-210px);
+}
+
+.footer img{
+	margin-left: 15%;
+}
